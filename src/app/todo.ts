@@ -1,7 +1,7 @@
 export class Todo {
     id: number;
-    title = '';
-    complete = false;
+    title: string = '';
+    complete: boolean = false;
 
     constructor(values: Object = {}) {
 
