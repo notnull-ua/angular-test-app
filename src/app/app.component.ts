@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {TodoAppComponent} from "./todo-app/todo-app.component";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    moduleId: module.id,
+    selector: 'app-todo-app',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    entryComponents: [TodoAppComponent]
 })
 export class AppComponent {
-  title = 'It`s my first application on Angular';
+
 }
